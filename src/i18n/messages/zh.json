@@ -97,9 +97,20 @@
     "timeline": "期望交付周期",
     "notes": "详细采购需求或规格定制备注",
     "quoteSubmitted": "询价需求已成功提交！",
-    "quoteSubmittedDesc": "您的询价单号为 {quoteId}。我们的硬件工程师将在 24 小时内与您联络并出具正式报价单。",
     "quantity": "数量",
-    "remove": "移除"
+    "remove": "移除",
+    "pageTitle": "正式采购询价与物料清单",
+    "pageSubtitle": "核对所需机器人硬件清单、批量阶梯折扣与交付要求。",
+    "billOfMaterials": "采购物料清单 (BOM)",
+    "volumeDiscountApplied": "已应用批量折扣: 减免 {percent}%",
+    "moqWarning": "未达最低起订量 ({moq} 件)",
+    "preferredContactMethod": "首选对接方式",
+    "phoneOrWechat": "联系电话 / 微信号",
+    "clearCart": "清空清单",
+    "continueShopping": "继续浏览零部件",
+    "unitPrice": "单价",
+    "total": "单项小计",
+    "estLeadTime": "预计备货发货周期: 3–5 工作日"
   },
   "contact": {
     "whatsappTitle": "WhatsApp 专属对接",

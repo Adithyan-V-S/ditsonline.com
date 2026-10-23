@@ -97,9 +97,20 @@
     "timeline": "Required Timeline",
     "notes": "Project requirements or notes",
     "quoteSubmitted": "Quote Request Submitted!",
-    "quoteSubmittedDesc": "Your quote ID is {quoteId}. Our engineering team will review and reply within 24 hours.",
     "quantity": "Quantity",
-    "remove": "Remove"
+    "remove": "Remove",
+    "pageTitle": "Formal Quote Request & Bill of Materials",
+    "pageSubtitle": "Review requested robot hardware, volume discounts, and delivery requirements.",
+    "billOfMaterials": "Bill of Materials (BOM)",
+    "volumeDiscountApplied": "Volume discount applied: {percent}% off",
+    "moqWarning": "Below minimum order quantity ({moq} units)",
+    "preferredContactMethod": "Preferred Contact Channel",
+    "phoneOrWechat": "Phone / WeChat ID",
+    "clearCart": "Clear Entire Cart",
+    "continueShopping": "Continue Browsing Parts",
+    "unitPrice": "Unit Price",
+    "total": "Line Total",
+    "estLeadTime": "Est. Lead Time: 3–5 days"
   },
   "contact": {
     "whatsappTitle": "WhatsApp Direct Inquiry",

@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/routing';
 import {
   X,
   Trash2,
@@ -13,6 +14,7 @@ import {
   CheckCircle2,
   AlertCircle,
   ShoppingBag,
+  FileText,
 } from 'lucide-react';
 import {
   CartItem,
@@ -233,6 +235,17 @@ export const QuoteCartDrawer: React.FC<QuoteCartDrawerProps> = ({
                     </div>
                   )}
                 </div>
+
+                {/* Link to Full BOM Page */}
+                <Link
+                  id="view-full-bom-link"
+                  href="/quote"
+                  onClick={onClose}
+                  className="w-full py-2.5 px-3 rounded-xl bg-zinc-850 hover:bg-zinc-800 border border-white/10 text-xs font-semibold text-zinc-200 hover:text-white flex items-center justify-center gap-2 transition-colors group shadow-sm"
+                >
+                  <FileText className="w-3.5 h-3.5 text-cyan-400 group-hover:scale-110 transition-transform" />
+                  <span>View Full Bill of Materials & RFQ Page</span>
+                </Link>
 
                 {/* Quick Chat CTAs */}
                 <div className="space-y-2">
