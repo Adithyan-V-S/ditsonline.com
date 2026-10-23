@@ -1,0 +1,540 @@
+openapi: 3.1.0
+info:
+  title: DITS Online Storefront API Contract
+  description: >
+    API contract between Front-end (Storefront) and Back-end (Platform/Dev B).
+    Supports products, categories, brands, quotes, cart validation, direct orders, and rentals.
+  version: 1.0.0
+servers:
+  - url: /api/v1
+    description: Primary API server
+
+paths:
+  /categories:
+    get:
+      summary: List all product categories and sub-categories
+      operationId: getCategories
+      responses:
+        '200':
+          description: List of categories with product counts
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Category'
+
+  /brands:
+    get:
+      summary: List all cleaned brands, optionally filtered by category
+      operationId: getBrands
+      parameters:
+        - name: category
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Category slug or key to filter brands
+      responses:
+        '200':
+          description: List of brands
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Brand'
+
+  /products:
+    get:
+      summary: Query catalogue products with filters, search, and sorting
+      operationId: getProducts
+      parameters:
+        - name: category
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Category key or slug
+        - name: brand
+          in: query
+          required: false
+          schema:
+            type: string
+        - name: q
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Search term across name, brand, model, specs
+        - name: fits_robot
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Filter robot parts compatible with a specific robot model (e.g. 'Unitree G1', 'Go2')
+        - name: sort
+          in: query
+          required: false
+          schema:
+            type: string
+            enum: [name_asc, name_desc, price_asc, price_desc, quote_first]
+            default: name_asc
+        - name: page
+          in: query
+          required: false
+          schema:
+            type: integer
+            default: 1
+        - name: limit
+          in: query
+          required: false
+          schema:
+            type: integer
+            default: 24
+      responses:
+        '200':
+          description: Paginated product results
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProductListResponse'
+
+  /products/{idOrSlug}:
+    get:
+      summary: Get detailed information for a single product
+      operationId: getProductByIdOrSlug
+      parameters:
+        - name: idOrSlug
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Product details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProductDetail'
+        '404':
+          description: Product not found
+
+  /cart/validate:
+    post:
+      summary: Validate cart items, minimum order quantities (MOQ), and bulk discounts
+      operationId: validateCart
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CartValidationRequest'
+      responses:
+        '200':
+          description: Validated cart breakdown
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CartValidationResponse'
+
+  /quotes:
+    post:
+      summary: Submit a quote request (RFQ)
+      operationId: createQuote
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/QuoteRequest'
+      responses:
+        '201':
+          description: Quote successfully created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/QuoteResponse'
+
+  /quotes/{quoteId}:
+    get:
+      summary: Get status of a submitted quote
+      operationId: getQuoteStatus
+      parameters:
+        - name: quoteId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Quote details and current status
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/QuoteResponse'
+
+  /orders:
+    post:
+      summary: Create checkout order for priced items
+      operationId: createOrder
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/OrderRequest'
+      responses:
+        '201':
+          description: Order created with payment intent
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OrderResponse'
+
+  /rentals/inquire:
+    post:
+      summary: Submit a rental inquiry / booking request
+      operationId: inquireRental
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RentalInquiryRequest'
+      responses:
+        '201':
+          description: Rental inquiry registered
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RentalInquiryResponse'
+
+components:
+  schemas:
+    Category:
+      type: object
+      required: [id, key, nameEn, nameZh, productCount]
+      properties:
+        id:
+          type: string
+        key:
+          type: string
+          example: "humanoid"
+        nameEn:
+          type: string
+          example: "Humanoids"
+        nameZh:
+          type: string
+          example: "人形机器人"
+        descriptionEn:
+          type: string
+        descriptionZh:
+          type: string
+        icon:
+          type: string
+        productCount:
+          type: integer
+        subCategories:
+          type: array
+          items:
+            type: string
+
+    Brand:
+      type: object
+      required: [id, name, slug]
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+          example: "Unitree"
+        slug:
+          type: string
+          example: "unitree"
+        logoUrl:
+          type: string
+        website:
+          type: string
+        productCount:
+          type: integer
+
+    ProductSummary:
+      type: object
+      required: [id, slug, modelNo, nameEn, nameZh, brand, categoryKey, saleMode, images]
+      properties:
+        id:
+          type: string
+        slug:
+          type: string
+        modelNo:
+          type: string
+        nameEn:
+          type: string
+        nameZh:
+          type: string
+        brand:
+          type: string
+        categoryKey:
+          type: string
+        descriptionEn:
+          type: string
+        descriptionZh:
+          type: string
+        priceUsd:
+          type: number
+          nullable: true
+          description: Null indicates quote required (never display $0)
+        saleMode:
+          type: string
+          enum: [buy, quote, rent]
+        minOrderQuantity:
+          type: integer
+          default: 1
+        familyGroup:
+          type: string
+          nullable: true
+          description: Grouping key for variants (e.g. 'unitree-g1')
+        variantName:
+          type: string
+          nullable: true
+          description: e.g. 'Basic', 'Pro', 'Edu'
+        compatibleRobots:
+          type: array
+          items:
+            type: string
+          description: Robot models this part fits
+        images:
+          type: array
+          items:
+            type: string
+
+    ProductDetail:
+      allOf:
+        - $ref: '#/components/schemas/ProductSummary'
+        - type: object
+          properties:
+            specs:
+              type: object
+              additionalProperties:
+                type: string
+              example:
+                "Weight": "Approx. 27kg"
+                "DOF": "20"
+                "Max Payload": "2kg"
+                "Battery Life": "Approx. 1h"
+            variants:
+              type: array
+              items:
+                $ref: '#/components/schemas/ProductSummary'
+            relatedParts:
+              type: array
+              items:
+                $ref: '#/components/schemas/ProductSummary'
+            videoUrl:
+              type: string
+              nullable: true
+            bulkPricing:
+              type: array
+              items:
+                $ref: '#/components/schemas/BulkPriceTier'
+
+    BulkPriceTier:
+      type: object
+      required: [minQuantity, unitPriceUsd]
+      properties:
+        minQuantity:
+          type: integer
+        unitPriceUsd:
+          type: number
+
+    ProductListResponse:
+      type: object
+      required: [items, total, page, limit, totalPages]
+      properties:
+        items:
+          type: array
+          items:
+            $ref: '#/components/schemas/ProductSummary'
+        total:
+          type: integer
+        page:
+          type: integer
+        limit:
+          type: integer
+        totalPages:
+          type: integer
+
+    CartItemInput:
+      type: object
+      required: [productId, quantity]
+      properties:
+        productId:
+          type: string
+        quantity:
+          type: integer
+          minimum: 1
+
+    CartValidationRequest:
+      type: object
+      required: [items]
+      properties:
+        items:
+          type: array
+          items:
+            $ref: '#/components/schemas/CartItemInput'
+
+    CartValidatedItem:
+      type: object
+      required: [product, quantity, unitPriceUsd, lineTotalUsd, satisfiesMoq]
+      properties:
+        product:
+          $ref: '#/components/schemas/ProductSummary'
+        quantity:
+          type: integer
+        unitPriceUsd:
+          type: number
+          nullable: true
+        lineTotalUsd:
+          type: number
+          nullable: true
+        satisfiesMoq:
+          type: boolean
+        appliedTierDiscountPercent:
+          type: number
+          nullable: true
+
+    CartValidationResponse:
+      type: object
+      required: [items, listedSubtotalUsd, quoteItemsCount, allSatisfyMoq]
+      properties:
+        items:
+          type: array
+          items:
+            $ref: '#/components/schemas/CartValidatedItem'
+        listedSubtotalUsd:
+          type: number
+        quoteItemsCount:
+          type: integer
+        allSatisfyMoq:
+          type: boolean
+
+    QuoteRequest:
+      type: object
+      required: [name, email, country, items]
+      properties:
+        name:
+          type: string
+        email:
+          type: string
+          format: email
+        company:
+          type: string
+        country:
+          type: string
+        timeline:
+          type: string
+        message:
+          type: string
+        preferredContactMethod:
+          type: string
+          enum: [email, whatsapp, wechat]
+        phoneOrWechatId:
+          type: string
+        items:
+          type: array
+          items:
+            $ref: '#/components/schemas/CartItemInput'
+
+    QuoteResponse:
+      type: object
+      required: [quoteId, status, createdAt, estimatedResponseHours]
+      properties:
+        quoteId:
+          type: string
+          example: "Q-2026-8942"
+        status:
+          type: string
+          enum: [submitted, under_review, quoted, accepted, expired]
+        createdAt:
+          type: string
+          format: date-time
+        estimatedResponseHours:
+          type: integer
+          default: 24
+
+    OrderRequest:
+      type: object
+      required: [items, customerName, customerEmail, shippingAddress]
+      properties:
+        items:
+          type: array
+          items:
+            $ref: '#/components/schemas/CartItemInput'
+        customerName:
+          type: string
+        customerEmail:
+          type: string
+        shippingAddress:
+          type: object
+          required: [street, city, country, postalCode]
+          properties:
+            street:
+              type: string
+            city:
+              type: string
+            country:
+              type: string
+            postalCode:
+              type: string
+
+    OrderResponse:
+      type: object
+      required: [orderId, status, totalUsd]
+      properties:
+        orderId:
+          type: string
+        status:
+          type: string
+          enum: [pending_payment, paid, processing, shipped]
+        totalUsd:
+          type: number
+        clientSecret:
+          type: string
+
+    RentalInquiryRequest:
+      type: object
+      required: [robotModel, startDate, endDate, location, customerName, customerEmail]
+      properties:
+        robotModel:
+          type: string
+        startDate:
+          type: string
+          format: date
+        endDate:
+          type: string
+          format: date
+        location:
+          type: string
+        needsTechnician:
+          type: boolean
+        customerName:
+          type: string
+        customerEmail:
+          type: string
+        company:
+          type: string
+        notes:
+          type: string
+
+    RentalInquiryResponse:
+      type: object
+      required: [rentalInquiryId, status, message]
+      properties:
+        rentalInquiryId:
+          type: string
+        status:
+          type: string
+          enum: [received, checking_fleet_availability]
+        message:
+          type: string

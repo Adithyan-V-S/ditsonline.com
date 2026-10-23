@@ -1,0 +1,40 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Next.js build output
+/.next/
+/out/
+
+# Production
+/build
+
+# Testing & reports
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Large reference master files (Exceeds GitHub 100MB limit)
+*.xlsx
+*.xls
+*.docx
+
+# Environment files
+.env*.local
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/

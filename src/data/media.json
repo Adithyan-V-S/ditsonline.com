@@ -1,0 +1,114 @@
+{
+  "videos": [
+    {
+      "id": "v1",
+      "title": "Unitree G1 Humanoid: Full Walkthrough & Mobility Test",
+      "titleZh": "Unitree G1 人形机器人：全方位漫游与动态运动测试",
+      "category": "Humanoids",
+      "categoryZh": "人形机器人",
+      "duration": "04:12",
+      "robotModel": "Unitree G1 Basic",
+      "thumbnail": "/images/products/img_0.webp",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ",
+      "views": "14.2k",
+      "description": "High-torque knee joint stress test, hollow internal wiring overview, and monocular camera integration."
+    },
+    {
+      "id": "v2",
+      "title": "Unitree Go2 Quadruped: Terrain Agility & Obstacle Navigation",
+      "titleZh": "Unitree Go2 四足机械狗：复杂地形越野与避障实测",
+      "category": "Quadrupeds",
+      "categoryZh": "四足机械狗",
+      "duration": "03:45",
+      "robotModel": "Unitree Go2 Pro",
+      "thumbnail": "/images/products/img_1.webp",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ",
+      "views": "28.5k",
+      "description": "Outdoor stairs climb, high-speed sprint, 4D ultra-wide LiDAR mapping, and payload transport trial."
+    },
+    {
+      "id": "v3",
+      "title": "TEK Adaptive Grippers: Fragile Object Grasping Demo",
+      "titleZh": "TEK 自适应工业夹爪：易碎品无损抓取实测",
+      "category": "Hands & Grippers",
+      "categoryZh": "灵巧手与夹爪",
+      "duration": "02:30",
+      "robotModel": "CTAG2F90",
+      "thumbnail": "/images/products/img_2.webp",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ",
+      "views": "9.8k",
+      "description": "Demonstrating parallel stroke control, compliant force-feedback, and dual-finger high repeatability."
+    },
+    {
+      "id": "v4",
+      "title": "Dexterous Hands: High-Fidelity Tactile Sensing Explained",
+      "titleZh": "五指仿生灵巧手：高精度触觉感知与多自由度控制",
+      "category": "Hands & Grippers",
+      "categoryZh": "灵巧手与夹爪",
+      "duration": "05:18",
+      "robotModel": "Dex3 Hand",
+      "thumbnail": "/images/products/img_3.webp",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ",
+      "views": "11.6k",
+      "description": "Array tactile sensors at fingertips, CAN bus communication latency, and ROS2 integration."
+    }
+  ],
+  "blogPosts": [
+    {
+      "id": "post-1",
+      "slug": "choosing-your-first-humanoid-robot",
+      "title": "Choosing Your First Humanoid Robot: G1 Models Compared",
+      "titleZh": "初选人形机器人指南：Unitree G1 基础版/专业版/教育版对比",
+      "summary": "How to compare G1 Basic, Pro, and Edu models, joint torque upgrades, and compute expansion options before requesting a quote.",
+      "summaryZh": "如何对比 G1 各配置版本的膝关节扭矩、算力扩展坞与质保支持，助您精准选型。",
+      "category": "Buyer's Guide",
+      "categoryZh": "选型指南",
+      "readTime": "6 min read",
+      "date": "2026-10-15",
+      "image": "/images/products/img_0.webp",
+      "featuredRobot": "Unitree G1 Pro"
+    },
+    {
+      "id": "post-2",
+      "slug": "robot-dog-buyer-guide-go2-compared",
+      "title": "Quadruped Fleet Guide: Go2 Air vs Pro vs Edu",
+      "titleZh": "四足机械狗选购指南：Go2 Air、Pro、Edu 各版本全解析",
+      "summary": "Wheels, legs, high-capacity batteries and add-on docks: what each Go2 variant is best suited for in real-world deployment.",
+      "summaryZh": "轮足切换、大容量电池组及二次开发接口：解析 Go2 各版本在巡检与科研中的最佳应用场景。",
+      "category": "Field Review",
+      "categoryZh": "场景实测",
+      "readTime": "5 min read",
+      "date": "2026-10-10",
+      "image": "/images/products/img_1.webp",
+      "featuredRobot": "Unitree Go2 Pro"
+    },
+    {
+      "id": "post-3",
+      "slug": "grippers-and-dexterous-hands-for-robot-arms",
+      "title": "Manipulators Explained: Adaptive Grippers vs 5-Finger Hands",
+      "titleZh": "机械臂末端执行器选型：两指自适应夹爪 vs 五指多维灵巧手",
+      "summary": "Engineering comparison of payload, degrees of freedom, tactile sensitivity, and price-to-performance trade-offs.",
+      "summaryZh": "从抓握负载、自由度配置、触觉感知精度及性价比四个维度，分析不同末端执行器的选型考量。",
+      "category": "Hardware Engineering",
+      "categoryZh": "硬件工程",
+      "readTime": "7 min read",
+      "date": "2026-10-02",
+      "image": "/images/products/img_2.webp",
+      "featuredRobot": "CTAG2F90"
+    },
+    {
+      "id": "post-4",
+      "slug": "power-and-battery-care-for-robot-fleets",
+      "title": "BMS Management & Fleet Battery Longevity Protocols",
+      "titleZh": "高倍率动力电池组维保：机器人机队 BMS 管理与寿命延长协议",
+      "summary": "Practical procedures for maintaining Go2 and humanoid lithium smart battery packs healthy across continuous commercial shifts.",
+      "summaryZh": "商用机队长时间连续作业下，智能锂电池均衡充电、自放电防护与高温巡检规范。",
+      "category": "Maintenance",
+      "categoryZh": "维保技术",
+      "readTime": "4 min read",
+      "date": "2026-09-24",
+      "image": "/images/products/img_3.webp",
+      "featuredRobot": "G1 Battery"
+    }
+  ]
+}

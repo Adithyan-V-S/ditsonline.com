@@ -1,0 +1,154 @@
+[
+  {
+    "id": "cat_humanoid",
+    "key": "humanoid",
+    "nameEn": "Humanoids",
+    "nameZh": "人形机器人",
+    "icon": "bot",
+    "productCount": 47
+  },
+  {
+    "id": "cat_quad",
+    "key": "quad",
+    "nameEn": "Quadrupeds",
+    "nameZh": "四足机械狗",
+    "icon": "dog",
+    "productCount": 28
+  },
+  {
+    "id": "cat_arm",
+    "key": "arm",
+    "nameEn": "Robot Arms",
+    "nameZh": "机械臂",
+    "icon": "arm",
+    "productCount": 37
+  },
+  {
+    "id": "cat_hand",
+    "key": "hand",
+    "nameEn": "Hands & Grippers",
+    "nameZh": "灵巧手与夹爪",
+    "icon": "hand",
+    "productCount": 40
+  },
+  {
+    "id": "cat_toy",
+    "key": "toy",
+    "nameEn": "Toy Robots & AI Companions",
+    "nameZh": "陪伴与娱乐机器人",
+    "icon": "gamepad",
+    "productCount": 1
+  },
+  {
+    "id": "cat_chip",
+    "key": "chip",
+    "nameEn": "Compute & Controllers",
+    "nameZh": "算力主板与控制器",
+    "icon": "cpu",
+    "productCount": 16
+  },
+  {
+    "id": "cat_tool",
+    "key": "tool",
+    "nameEn": "Repair Tools",
+    "nameZh": "维修与调试工具",
+    "icon": "wrench",
+    "productCount": 8
+  },
+  {
+    "id": "cat_acc",
+    "key": "acc",
+    "nameEn": "Accessories & Power",
+    "nameZh": "电池与配件",
+    "icon": "battery",
+    "productCount": 11
+  },
+  {
+    "id": "cat_cam",
+    "key": "cam",
+    "nameEn": "Vision & Depth Cameras",
+    "nameZh": "视觉传感器与双目相机",
+    "icon": "camera",
+    "productCount": 16
+  },
+  {
+    "id": "cat_motor",
+    "key": "motor",
+    "nameEn": "Micro Motors",
+    "nameZh": "微型无刷电机",
+    "icon": "cog",
+    "productCount": 3
+  },
+  {
+    "id": "cat_joint",
+    "key": "joint",
+    "nameEn": "Joint Modules",
+    "nameZh": "一体化关节模组",
+    "icon": "circle-dot",
+    "productCount": 5
+  },
+  {
+    "id": "cat_cnc",
+    "key": "cnc",
+    "nameEn": "CNC & Structural Parts",
+    "nameZh": "CNC结构件与机加工件",
+    "icon": "box",
+    "productCount": 10
+  },
+  {
+    "id": "cat_act",
+    "key": "act",
+    "nameEn": "Harmonic Actuators",
+    "nameZh": "高精度谐波执行器",
+    "icon": "zap",
+    "productCount": 11
+  },
+  {
+    "id": "cat_lidar",
+    "key": "lidar",
+    "nameEn": "LiDAR Sensors",
+    "nameZh": "激光雷达",
+    "icon": "radar",
+    "productCount": 3
+  },
+  {
+    "id": "cat_devkit",
+    "key": "devkit",
+    "nameEn": "Development Kits",
+    "nameZh": "开发者套件",
+    "icon": "terminal",
+    "productCount": 6
+  },
+  {
+    "id": "cat_kit",
+    "key": "kit",
+    "nameEn": "Obstacle & Test Kits",
+    "nameZh": "障碍训练与测试套件",
+    "icon": "shield",
+    "productCount": 23
+  },
+  {
+    "id": "cat_cage",
+    "key": "cage",
+    "nameEn": "Fight Cages & Arenas",
+    "nameZh": "对战围栏与竞技擂台",
+    "icon": "grid",
+    "productCount": 4
+  },
+  {
+    "id": "cat_mod",
+    "key": "mod",
+    "nameEn": "Expansion Docks & Modules",
+    "nameZh": "扩展坞与算力背负模块",
+    "icon": "server",
+    "productCount": 3
+  },
+  {
+    "id": "cat_cost",
+    "key": "cost",
+    "nameEn": "Costumes & Protective Covers",
+    "nameZh": "防护服与定制涂装",
+    "icon": "shirt",
+    "productCount": 36
+  }
+]
