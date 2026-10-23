@@ -3944,8 +3944,8 @@
     "categoryKey": "toy",
     "descriptionEn": "Dimensions: 170mm × 214mm × 355mm\nThe weight is approximately 2.849 kilograms\nThe mechanical arm has three degrees of freedom, an electromagnet/rotary grasping method, an",
     "descriptionZh": "Dimensions: 170mm × 214mm × 355mm\nThe weight is approximately 2.849 kilograms\nThe mechanical arm has three degrees of freedom, an electromagnet/rotary grasping method, an",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 599.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -3958,7 +3958,16 @@
     "specs": {
       "Dimensions & Weight": "170mm × 214mm × 355mm"
     },
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 569.05
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 527.12
+      }
+    ]
   },
   {
     "id": "bdd0a5b56",
@@ -3970,8 +3979,8 @@
     "categoryKey": "chip",
     "descriptionEn": "",
     "descriptionZh": "",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 719.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -3982,7 +3991,16 @@
       "/images/products/img_107.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 683.05
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 632.72
+      }
+    ]
   },
   {
     "id": "bc1c08873",
@@ -3994,8 +4012,8 @@
     "categoryKey": "chip",
     "descriptionEn": "",
     "descriptionZh": "",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 599.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -4006,7 +4024,16 @@
       "/images/products/img_108.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 569.05
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 527.12
+      }
+    ]
   },
   {
     "id": "b3e63b1fb",
@@ -4018,8 +4045,8 @@
     "categoryKey": "chip",
     "descriptionEn": "",
     "descriptionZh": "",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 619.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -4030,7 +4057,16 @@
       "/images/products/img_109.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 588.05
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 544.72
+      }
+    ]
   },
   {
     "id": "b380a4b13",
@@ -4042,8 +4078,8 @@
     "categoryKey": "chip",
     "descriptionEn": "",
     "descriptionZh": "",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 639.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -4054,7 +4090,16 @@
       "/images/products/img_110.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 607.05
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 562.32
+      }
+    ]
   },
   {
     "id": "b29b2d4d7",
@@ -4066,8 +4111,8 @@
     "categoryKey": "chip",
     "descriptionEn": "",
     "descriptionZh": "",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 659.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -4078,7 +4123,16 @@
       "/images/products/img_111.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 626.05
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 579.92
+      }
+    ]
   },
   {
     "id": "b15057a00",
@@ -4090,8 +4144,8 @@
     "categoryKey": "chip",
     "descriptionEn": "",
     "descriptionZh": "",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 679.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -4102,7 +4156,16 @@
       "/images/products/img_112.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 645.05
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 597.52
+      }
+    ]
   },
   {
     "id": "becbf6cdf",
@@ -4114,8 +4177,8 @@
     "categoryKey": "chip",
     "descriptionEn": "",
     "descriptionZh": "",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 699.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -4126,7 +4189,16 @@
       "/images/products/img_113.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 664.05
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 615.12
+      }
+    ]
   },
   {
     "id": "b6488ae2f",
@@ -4138,8 +4210,8 @@
     "categoryKey": "chip",
     "descriptionEn": "",
     "descriptionZh": "",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 719.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -4150,7 +4222,16 @@
       "/images/products/img_114.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 683.05
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 632.72
+      }
+    ]
   },
   {
     "id": "b59975b1a",
@@ -4162,8 +4243,8 @@
     "categoryKey": "chip",
     "descriptionEn": "",
     "descriptionZh": "",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 599.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -4174,7 +4255,16 @@
       "/images/products/img_115.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 569.05
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 527.12
+      }
+    ]
   },
   {
     "id": "b4ab4ba98",
@@ -4186,8 +4276,8 @@
     "categoryKey": "chip",
     "descriptionEn": "",
     "descriptionZh": "",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 619.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -4198,7 +4288,16 @@
       "/images/products/img_116.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 588.05
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 544.72
+      }
+    ]
   },
   {
     "id": "b4be413b7",
@@ -4210,8 +4309,8 @@
     "categoryKey": "chip",
     "descriptionEn": "",
     "descriptionZh": "",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 639.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -4222,7 +4321,16 @@
       "/images/products/img_117.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 607.05
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 562.32
+      }
+    ]
   },
   {
     "id": "bdb9cf17e",
@@ -4234,8 +4342,8 @@
     "categoryKey": "chip",
     "descriptionEn": "",
     "descriptionZh": "",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 659.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -4246,7 +4354,16 @@
       "/images/products/img_117.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 626.05
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 579.92
+      }
+    ]
   },
   {
     "id": "b54963758",
@@ -4258,8 +4375,8 @@
     "categoryKey": "chip",
     "descriptionEn": "",
     "descriptionZh": "",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 679.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -4270,7 +4387,16 @@
       "/images/products/img_118.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 645.05
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 597.52
+      }
+    ]
   },
   {
     "id": "bb2d58de1",
@@ -4282,8 +4408,8 @@
     "categoryKey": "chip",
     "descriptionEn": "",
     "descriptionZh": "",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 699.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -4294,7 +4420,16 @@
       "/images/products/img_118.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 664.05
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 615.12
+      }
+    ]
   },
   {
     "id": "bf27c40c2",
@@ -4306,8 +4441,8 @@
     "categoryKey": "chip",
     "descriptionEn": "",
     "descriptionZh": "",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 719.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -4318,7 +4453,16 @@
       "/images/products/img_119.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 683.05
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 632.72
+      }
+    ]
   },
   {
     "id": "b290dea4b",
@@ -4330,8 +4474,8 @@
     "categoryKey": "chip",
     "descriptionEn": "",
     "descriptionZh": "",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 599.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -4342,7 +4486,16 @@
       "/images/products/img_119.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 569.05
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 527.12
+      }
+    ]
   },
   {
     "id": "b56906efe",
@@ -4354,8 +4507,8 @@
     "categoryKey": "tool",
     "descriptionEn": "A 27-piece set of hollowed-out titanium-plated tools",
     "descriptionZh": "A 27-piece set of hollowed-out titanium-plated tools",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 169.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -4366,7 +4519,16 @@
       "/images/products/img_120.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 160.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 148.72
+      }
+    ]
   },
   {
     "id": "b80879331",
@@ -4378,8 +4540,8 @@
     "categoryKey": "tool",
     "descriptionEn": "RC model remote control car shock absorber clamp, shock absorber disassembly and assembly tool, multi-functional shock absorber clamp, model modification tool",
     "descriptionZh": "RC model remote control car shock absorber clamp, shock absorber disassembly and assembly tool, multi-functional shock absorber clamp, model modification tool",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 189.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -4390,7 +4552,16 @@
       "/images/products/img_121.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 179.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 166.32
+      }
+    ]
   },
   {
     "id": "b8f1bc972",
@@ -4402,8 +4573,8 @@
     "categoryKey": "tool",
     "descriptionEn": "Locking straight handle +1.5-2+2.5+3+4+5+6mm(seven-piece set)",
     "descriptionZh": "Locking straight handle +1.5-2+2.5+3+4+5+6mm(seven-piece set)",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 209.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -4414,7 +4585,16 @@
       "/images/products/img_122.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 198.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 183.92
+      }
+    ]
   },
   {
     "id": "b5b2a62a0",
@@ -4426,8 +4606,8 @@
     "categoryKey": "tool",
     "descriptionEn": "Magnetic Screw Tray For Phone Repair",
     "descriptionZh": "Magnetic Screw Tray For Phone Repair",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 229.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -4438,7 +4618,16 @@
       "/images/products/img_123.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 217.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 201.52
+      }
+    ]
   },
   {
     "id": "b4dec08f5",
@@ -4450,8 +4639,8 @@
     "categoryKey": "tool",
     "descriptionEn": "Titanium-coated hexagon socket seven-piece set + wrench + cross socket.\ncolor:red/blue/black",
     "descriptionZh": "Titanium-coated hexagon socket seven-piece set + wrench + cross socket.\ncolor:red/blue/black",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 249.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -4462,7 +4651,16 @@
       "/images/products/img_124.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 236.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 219.12
+      }
+    ]
   },
   {
     "id": "bd52e12e7",
@@ -4474,8 +4672,8 @@
     "categoryKey": "tool",
     "descriptionEn": "Round handle white steel hexagon socket seven-piece set + wrench + cross socket\ncolor:red/blue/black",
     "descriptionZh": "Round handle white steel hexagon socket seven-piece set + wrench + cross socket\ncolor:red/blue/black",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 269.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -4486,7 +4684,16 @@
       "/images/products/img_125.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 255.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 236.72
+      }
+    ]
   },
   {
     "id": "b659b9ea1",
@@ -4498,8 +4705,8 @@
     "categoryKey": "tool",
     "descriptionEn": "RC model remote control car multi-functional maintenance small wrench, bidirectional M3, M4, 4.5, 5, 5.5, M7 manual mini wrench",
     "descriptionZh": "RC model remote control car multi-functional maintenance small wrench, bidirectional M3, M4, 4.5, 5, 5.5, M7 manual mini wrench",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 149.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -4510,7 +4717,16 @@
       "/images/products/img_126.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 141.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 131.12
+      }
+    ]
   },
   {
     "id": "b774d8efc",
@@ -4522,8 +4738,8 @@
     "categoryKey": "tool",
     "descriptionEn": "HUDY RC Remote Control car CNC Aluminum Tool Stand 199060 Screwdriver/Pliers/Scissors/Tweezers storage rack",
     "descriptionZh": "HUDY RC Remote Control car CNC Aluminum Tool Stand 199060 Screwdriver/Pliers/Scissors/Tweezers storage rack",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 169.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -4534,7 +4750,16 @@
       "/images/products/img_127.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 160.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 148.72
+      }
+    ]
   },
   {
     "id": "b7ff1596f",
@@ -4546,8 +4771,8 @@
     "categoryKey": "acc",
     "descriptionEn": "Product dimensions: 120mm80mm182mm; Rated capacity: 9000mAh; Adopts self- developed Battery Management System (BMS); Functions: power level display, self- discharge prote",
     "descriptionZh": "Product dimensions: 120mm80mm182mm; Rated capacity: 9000mAh; Adopts self- developed Battery Management System (BMS); Functions: power level display, self- discharge prote",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 339.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": "unitree-g1",
     "variantName": null,
@@ -4561,7 +4786,16 @@
       "Dimensions & Weight": "120mm80mm182mm",
       "Battery & Power": "9000mAh"
     },
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 322.05
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 298.32
+      }
+    ]
   },
   {
     "id": "b3845d29d",
@@ -4573,8 +4807,8 @@
     "categoryKey": "acc",
     "descriptionEn": "",
     "descriptionZh": "",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 359.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": "unitree-go2",
     "variantName": null,
@@ -4585,7 +4819,16 @@
       "/images/products/img_129.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 341.05
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 315.92
+      }
+    ]
   },
   {
     "id": "bbbd79073",
@@ -4597,8 +4840,8 @@
     "categoryKey": "acc",
     "descriptionEn": "Product dimensions: 210mm108mm48.2mm; Input power: 100-240V~50/60Hz 4A 350VA; Output power: 54V 5A.",
     "descriptionZh": "Product dimensions: 210mm108mm48.2mm; Input power: 100-240V~50/60Hz 4A 350VA; Output power: 54V 5A.",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 379.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": "unitree-g1",
     "variantName": null,
@@ -4611,7 +4854,16 @@
     "specs": {
       "Dimensions & Weight": "210mm108mm48"
     },
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 360.05
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 333.52
+      }
+    ]
   },
   {
     "id": "bcccbcc3e",
@@ -4623,8 +4875,8 @@
     "categoryKey": "acc",
     "descriptionEn": "",
     "descriptionZh": "",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 399.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": "unitree-go2",
     "variantName": null,
@@ -4635,7 +4887,16 @@
       "/images/products/img_131.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 379.05
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 351.12
+      }
+    ]
   },
   {
     "id": "bce8cbc34",
@@ -4647,8 +4908,8 @@
     "categoryKey": "acc",
     "descriptionEn": "Universal debugging protective bracket for G1 humanoid robot, including bracket, customized cables and technical support services.",
     "descriptionZh": "Universal debugging protective bracket for G1 humanoid robot, including bracket, customized cables and technical support services.",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 419.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -4659,7 +4920,16 @@
       "/images/products/img_132.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 398.05
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 368.72
+      }
+    ]
   },
   {
     "id": "bf3c0c3ea",
@@ -4671,8 +4941,8 @@
     "categoryKey": "acc",
     "descriptionEn": "",
     "descriptionZh": "",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 299.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": "unitree-go2",
     "variantName": null,
@@ -4683,7 +4953,16 @@
       "/images/products/img_133.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 284.05
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 263.12
+      }
+    ]
   },
   {
     "id": "bf9348805",
@@ -4695,8 +4974,8 @@
     "categoryKey": "acc",
     "descriptionEn": "Charging voltage: 5V; Charging current: 2A; Frequency: 2.4GHz; Communication modes: data transmission module and Bluetooth; Operating time: 4.5h; Remote control distance:",
     "descriptionZh": "Charging voltage: 5V; Charging current: 2A; Frequency: 2.4GHz; Communication modes: data transmission module and Bluetooth; Operating time: 4.5h; Remote control distance:",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 319.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": "unitree-g1",
     "variantName": null,
@@ -4709,7 +4988,16 @@
     "specs": {
       "Connectivity": "modes: data transmission module and Bluetooth"
     },
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 303.05
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 280.72
+      }
+    ]
   },
   {
     "id": "b80af624e",
@@ -4721,8 +5009,8 @@
     "categoryKey": "acc",
     "descriptionEn": "",
     "descriptionZh": "",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 339.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": "unitree-go2",
     "variantName": null,
@@ -4733,7 +5021,16 @@
       "/images/products/img_134.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 322.05
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 298.32
+      }
+    ]
   },
   {
     "id": "bfe7f7735",
@@ -4745,8 +5042,8 @@
     "categoryKey": "acc",
     "descriptionEn": "Charging voltage: 5V; Charging current: 2A; Operating time: 2.5h; Remote control distance: over 100m; This product is not sold conventionally with a very high selling pri",
     "descriptionZh": "Charging voltage: 5V; Charging current: 2A; Operating time: 2.5h; Remote control distance: over 100m; This product is not sold conventionally with a very high selling pri",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 359.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": "unitree-g1",
     "variantName": null,
@@ -4757,7 +5054,16 @@
       "/images/products/img_134.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 341.05
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 315.92
+      }
+    ]
   },
   {
     "id": "bae515293",
@@ -4769,8 +5075,8 @@
     "categoryKey": "acc",
     "descriptionEn": "(Line length :30cm\n\nThree-mode wireless controller\n\nSupports Jetson, Raspberry PI, Sweet Potato RDK, and ROS robots",
     "descriptionZh": "(Line length :30cm\n\nThree-mode wireless controller\n\nSupports Jetson, Raspberry PI, Sweet Potato RDK, and ROS robots",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 379.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -4781,7 +5087,16 @@
       "/images/products/img_135.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 360.05
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 333.52
+      }
+    ]
   },
   {
     "id": "ba97c6c46",
@@ -4793,8 +5108,8 @@
     "categoryKey": "acc",
     "descriptionEn": "The three types of high-power, strong brightness, range, penetration and light spot effect of the three colors of light are different. Please choose HIGH POWER according",
     "descriptionZh": "The three types of high-power, strong brightness, range, penetration and light spot effect of the three colors of light are different. Please choose HIGH POWER according",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 399.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -4805,7 +5120,16 @@
       "/images/products/img_136.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 379.05
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 351.12
+      }
+    ]
   },
   {
     "id": "b952a1723",
@@ -4817,8 +5141,8 @@
     "categoryKey": "cam",
     "descriptionEn": "RealSense D455 depth camera, supplied with bracket and customized cables.\nDegrees of freedom: 2; P: -90°~+22.7°, Y: -50°~+50°; Equipped with bracket and customized cables",
     "descriptionZh": "RealSense D455 depth camera, supplied with bracket and customized cables.\nDegrees of freedom: 2; P: -90°~+22.7°, Y: -50°~+50°; Equipped with bracket and customized cables",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 509.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": "unitree-g1",
     "variantName": null,
@@ -4832,7 +5156,16 @@
     "specs": {
       "Degrees of Freedom (DOF)": "2"
     },
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 483.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 447.92
+      }
+    ]
   },
   {
     "id": "bb87f5f00",
@@ -4844,8 +5177,8 @@
     "categoryKey": "cam",
     "descriptionEn": "Brand: Intel; Model: RealSense D435i; Comes with bracket and customized cables; Minimum\ndepth distance: 40cm; Depth image resolution: 1280720 @ 30fps, 848480 @ 90fps; Dep",
     "descriptionZh": "Brand: Intel; Model: RealSense D435i; Comes with bracket and customized cables; Minimum\ndepth distance: 40cm; Depth image resolution: 1280720 @ 30fps, 848480 @ 90fps; Dep",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 389.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -4857,7 +5190,16 @@
       "/images/products/img_138.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 369.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 342.32
+      }
+    ]
   },
   {
     "id": "ba99a29c6",
@@ -4869,8 +5211,8 @@
     "categoryKey": "cam",
     "descriptionEn": "RealSense Depth Camera ROS dual-eye 3D stereoscopic camera",
     "descriptionZh": "RealSense Depth Camera ROS dual-eye 3D stereoscopic camera",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 409.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -4884,7 +5226,16 @@
     "specs": {
       "Camera / Vision": "ROS dual-eye 3D stereoscopic camera"
     },
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 388.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 359.92
+      }
+    ]
   },
   {
     "id": "b1b799ef3",
@@ -4896,8 +5247,8 @@
     "categoryKey": "cam",
     "descriptionEn": "RealSense Depth Camera ROS dual-eye 3D stereoscopic camera",
     "descriptionZh": "RealSense Depth Camera ROS dual-eye 3D stereoscopic camera",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 429.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -4911,7 +5262,16 @@
     "specs": {
       "Camera / Vision": "ROS dual-eye 3D stereoscopic camera"
     },
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 407.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 377.52
+      }
+    ]
   },
   {
     "id": "b7109f59f",
@@ -4923,8 +5283,8 @@
     "categoryKey": "cam",
     "descriptionEn": "RealSense Depth Camera ROS dual-eye 3D stereoscopic camera",
     "descriptionZh": "RealSense Depth Camera ROS dual-eye 3D stereoscopic camera",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 449.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -4938,7 +5298,16 @@
     "specs": {
       "Camera / Vision": "ROS dual-eye 3D stereoscopic camera"
     },
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 426.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 395.12
+      }
+    ]
   },
   {
     "id": "b1e14b832",
@@ -4950,8 +5319,8 @@
     "categoryKey": "cam",
     "descriptionEn": "RealSense Depth Camera ROS dual-eye 3D stereoscopic camera",
     "descriptionZh": "RealSense Depth Camera ROS dual-eye 3D stereoscopic camera",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 469.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -4965,7 +5334,16 @@
     "specs": {
       "Camera / Vision": "ROS dual-eye 3D stereoscopic camera"
     },
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 445.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 412.72
+      }
+    ]
   },
   {
     "id": "bd466c354",
@@ -4977,8 +5355,8 @@
     "categoryKey": "cam",
     "descriptionEn": "RealSense Depth Camera ROS dual-eye 3D stereoscopic camera",
     "descriptionZh": "RealSense Depth Camera ROS dual-eye 3D stereoscopic camera",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 489.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -4992,7 +5370,16 @@
     "specs": {
       "Camera / Vision": "ROS dual-eye 3D stereoscopic camera"
     },
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 464.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 430.32
+      }
+    ]
   },
   {
     "id": "bd2f5b26f",
@@ -5004,8 +5391,8 @@
     "categoryKey": "cam",
     "descriptionEn": "RealSense Depth Camera ROS dual-eye 3D stereoscopic camera",
     "descriptionZh": "RealSense Depth Camera ROS dual-eye 3D stereoscopic camera",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 509.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -5019,7 +5406,16 @@
     "specs": {
       "Camera / Vision": "ROS dual-eye 3D stereoscopic camera"
     },
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 483.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 447.92
+      }
+    ]
   },
   {
     "id": "b5771440d",
@@ -5031,8 +5427,8 @@
     "categoryKey": "cam",
     "descriptionEn": "Gemini2 binocular structured light depth camera SLAM camera ROS2 Robot D435i",
     "descriptionZh": "Gemini2 binocular structured light depth camera SLAM camera ROS2 Robot D435i",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 389.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -5046,7 +5442,16 @@
     "specs": {
       "Camera / Vision": "SLAM camera ROS2 Robot D435i"
     },
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 369.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 342.32
+      }
+    ]
   },
   {
     "id": "b98393952",
@@ -5058,8 +5463,8 @@
     "categoryKey": "cam",
     "descriptionEn": "Gemini Max Binocular depth Camera ROS2 Robot SLAM Vehicle AI Vision Camera",
     "descriptionZh": "Gemini Max Binocular depth Camera ROS2 Robot SLAM Vehicle AI Vision Camera",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 409.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -5073,7 +5478,16 @@
     "specs": {
       "Camera / Vision": "ROS2 Robot SLAM Vehicle AI Vision Camera"
     },
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 388.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 359.92
+      }
+    ]
   },
   {
     "id": "bf06477c0",
@@ -5085,8 +5499,8 @@
     "categoryKey": "cam",
     "descriptionEn": "Binocular depth-phase robot ROS trolley vision camera SLAM",
     "descriptionZh": "Binocular depth-phase robot ROS trolley vision camera SLAM",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 429.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -5100,7 +5514,16 @@
     "specs": {
       "Camera / Vision": "SLAM"
     },
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 407.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 377.52
+      }
+    ]
   },
   {
     "id": "b876d3922",
@@ -5112,8 +5535,8 @@
     "categoryKey": "cam",
     "descriptionEn": "Binocular depth-phase robot ROS trolley vision camera SLAM",
     "descriptionZh": "Binocular depth-phase robot ROS trolley vision camera SLAM",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 449.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -5127,7 +5550,16 @@
     "specs": {
       "Camera / Vision": "SLAM"
     },
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 426.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 395.12
+      }
+    ]
   },
   {
     "id": "bec233bb1",
@@ -5139,8 +5571,8 @@
     "categoryKey": "cam",
     "descriptionEn": "Binocular depth-phase robot ROS trolley vision camera SLAM",
     "descriptionZh": "Binocular depth-phase robot ROS trolley vision camera SLAM",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 469.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -5154,7 +5586,16 @@
     "specs": {
       "Camera / Vision": "SLAM"
     },
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 445.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 412.72
+      }
+    ]
   },
   {
     "id": "b0db99732",
@@ -5166,8 +5607,8 @@
     "categoryKey": "cam",
     "descriptionEn": "Binocular depth-phase robot ROS trolley vision camera SLAM",
     "descriptionZh": "Binocular depth-phase robot ROS trolley vision camera SLAM",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 489.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -5181,7 +5622,16 @@
     "specs": {
       "Camera / Vision": "SLAM"
     },
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 464.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 430.32
+      }
+    ]
   },
   {
     "id": "b62fecf18",
@@ -5193,8 +5643,8 @@
     "categoryKey": "cam",
     "descriptionEn": "Nuwa-HP60C depth camera ROS2 Robot AI visual recognition 3D camera Smart car",
     "descriptionZh": "Nuwa-HP60C depth camera ROS2 Robot AI visual recognition 3D camera Smart car",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 509.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -5208,7 +5658,16 @@
     "specs": {
       "Camera / Vision": "ROS2 Robot AI visual recognition 3D camera Smart car"
     },
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 483.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 447.92
+      }
+    ]
   },
   {
     "id": "b509df958",
@@ -5220,8 +5679,8 @@
     "categoryKey": "cam",
     "descriptionEn": "",
     "descriptionZh": "",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 389.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -5233,7 +5692,16 @@
       "/images/products/placeholder.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 369.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 342.32
+      }
+    ]
   },
   {
     "id": "bc926d4f2",
@@ -5245,8 +5713,8 @@
     "categoryKey": "motor",
     "descriptionEn": "",
     "descriptionZh": "",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 109.0,
+    "saleMode": "buy",
     "minOrderQuantity": 5,
     "familyGroup": null,
     "variantName": null,
@@ -5258,7 +5726,16 @@
       "/images/products/img_152.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 103.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 95.92
+      }
+    ]
   },
   {
     "id": "bb09d4736",
@@ -5270,8 +5747,8 @@
     "categoryKey": "motor",
     "descriptionEn": "",
     "descriptionZh": "",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 129.0,
+    "saleMode": "buy",
     "minOrderQuantity": 5,
     "familyGroup": null,
     "variantName": null,
@@ -5283,7 +5760,16 @@
       "/images/products/img_153.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 122.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 113.52
+      }
+    ]
   },
   {
     "id": "bfcfce8a4",
@@ -5295,8 +5781,8 @@
     "categoryKey": "motor",
     "descriptionEn": "",
     "descriptionZh": "",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 149.0,
+    "saleMode": "buy",
     "minOrderQuantity": 5,
     "familyGroup": null,
     "variantName": null,
@@ -5308,7 +5794,16 @@
       "/images/products/img_154.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 141.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 131.12
+      }
+    ]
   },
   {
     "id": "b13cfab33",
@@ -5320,8 +5815,8 @@
     "categoryKey": "joint",
     "descriptionEn": "",
     "descriptionZh": "",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 479.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -5333,7 +5828,16 @@
       "/images/products/img_155.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 455.05
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 421.52
+      }
+    ]
   },
   {
     "id": "b49917179",
@@ -5345,8 +5849,8 @@
     "categoryKey": "joint",
     "descriptionEn": "",
     "descriptionZh": "",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 499.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -5358,7 +5862,16 @@
       "/images/products/img_156.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 474.05
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 439.12
+      }
+    ]
   },
   {
     "id": "bcdc7faab",
@@ -5370,8 +5883,8 @@
     "categoryKey": "joint",
     "descriptionEn": "",
     "descriptionZh": "",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 519.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -5383,7 +5896,16 @@
       "/images/products/img_157.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 493.05
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 456.72
+      }
+    ]
   },
   {
     "id": "b260f3a02",
@@ -5395,8 +5917,8 @@
     "categoryKey": "joint",
     "descriptionEn": "",
     "descriptionZh": "",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 399.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -5408,7 +5930,16 @@
       "/images/products/img_158.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 379.05
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 351.12
+      }
+    ]
   },
   {
     "id": "bb4ce55b1",
@@ -5420,8 +5951,8 @@
     "categoryKey": "joint",
     "descriptionEn": "",
     "descriptionZh": "",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 419.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -5433,7 +5964,16 @@
       "/images/products/img_159.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 398.05
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 368.72
+      }
+    ]
   },
   {
     "id": "bf455e5be",
@@ -5445,8 +5985,8 @@
     "categoryKey": "cnc",
     "descriptionEn": "Left leg integrated motor assembly",
     "descriptionZh": "Left leg integrated motor assembly",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 169.0,
+    "saleMode": "buy",
     "minOrderQuantity": 5,
     "familyGroup": null,
     "variantName": null,
@@ -5458,7 +5998,16 @@
       "/images/products/img_160.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 160.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 148.72
+      }
+    ]
   },
   {
     "id": "bb976d71b",
@@ -5470,8 +6019,8 @@
     "categoryKey": "cnc",
     "descriptionEn": "Right leg integrated motor assembly",
     "descriptionZh": "Right leg integrated motor assembly",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 189.0,
+    "saleMode": "buy",
     "minOrderQuantity": 5,
     "familyGroup": null,
     "variantName": null,
@@ -5483,7 +6032,16 @@
       "/images/products/img_161.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 179.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 166.32
+      }
+    ]
   },
   {
     "id": "b7677e1f4",
@@ -5495,8 +6053,8 @@
     "categoryKey": "cnc",
     "descriptionEn": "Left leg outer cover",
     "descriptionZh": "Left leg outer cover",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 209.0,
+    "saleMode": "buy",
     "minOrderQuantity": 5,
     "familyGroup": null,
     "variantName": null,
@@ -5508,7 +6066,16 @@
       "/images/products/img_162.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 198.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 183.92
+      }
+    ]
   },
   {
     "id": "bfef56001",
@@ -5520,8 +6087,8 @@
     "categoryKey": "cnc",
     "descriptionEn": "Right leg outer cover",
     "descriptionZh": "Right leg outer cover",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 229.0,
+    "saleMode": "buy",
     "minOrderQuantity": 5,
     "familyGroup": null,
     "variantName": null,
@@ -5533,7 +6100,16 @@
       "/images/products/img_163.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 217.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 201.52
+      }
+    ]
   },
   {
     "id": "b44edacb7",
@@ -5545,8 +6121,8 @@
     "categoryKey": "cnc",
     "descriptionEn": "Motor flange",
     "descriptionZh": "Motor flange",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 249.0,
+    "saleMode": "buy",
     "minOrderQuantity": 5,
     "familyGroup": null,
     "variantName": null,
@@ -5558,7 +6134,16 @@
       "/images/products/img_164.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 236.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 219.12
+      }
+    ]
   },
   {
     "id": "b69d9699c",
@@ -5570,8 +6155,8 @@
     "categoryKey": "cnc",
     "descriptionEn": "Hip joint flange",
     "descriptionZh": "Hip joint flange",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 129.0,
+    "saleMode": "buy",
     "minOrderQuantity": 5,
     "familyGroup": null,
     "variantName": null,
@@ -5583,7 +6168,16 @@
       "/images/products/img_165.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 122.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 113.52
+      }
+    ]
   },
   {
     "id": "b527c873a",
@@ -5595,8 +6189,8 @@
     "categoryKey": "cnc",
     "descriptionEn": "Link rod / Connecting rod",
     "descriptionZh": "Link rod / Connecting rod",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 149.0,
+    "saleMode": "buy",
     "minOrderQuantity": 5,
     "familyGroup": null,
     "variantName": null,
@@ -5608,7 +6202,16 @@
       "/images/products/img_166.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 141.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 131.12
+      }
+    ]
   },
   {
     "id": "b3bcbc6bb",
@@ -5620,8 +6223,8 @@
     "categoryKey": "cnc",
     "descriptionEn": "Lower leg / Shank",
     "descriptionZh": "Lower leg / Shank",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 169.0,
+    "saleMode": "buy",
     "minOrderQuantity": 5,
     "familyGroup": null,
     "variantName": null,
@@ -5633,7 +6236,16 @@
       "/images/products/img_167.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 160.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 148.72
+      }
+    ]
   },
   {
     "id": "b0a56d6ae",
@@ -5645,8 +6257,8 @@
     "categoryKey": "cnc",
     "descriptionEn": "Foot pad",
     "descriptionZh": "Foot pad",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 189.0,
+    "saleMode": "buy",
     "minOrderQuantity": 5,
     "familyGroup": null,
     "variantName": null,
@@ -5658,7 +6270,16 @@
       "/images/products/img_168.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 179.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 166.32
+      }
+    ]
   },
   {
     "id": "bf6ebe473",
@@ -5670,8 +6291,8 @@
     "categoryKey": "cnc",
     "descriptionEn": "Wire harness XT30",
     "descriptionZh": "Wire harness XT30",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 209.0,
+    "saleMode": "buy",
     "minOrderQuantity": 5,
     "familyGroup": null,
     "variantName": null,
@@ -5683,7 +6304,16 @@
       "/images/products/img_169.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 198.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 183.92
+      }
+    ]
   },
   {
     "id": "bb7f58469",
@@ -5695,8 +6325,8 @@
     "categoryKey": "act",
     "descriptionEn": "The HATF Harmonic Servo Rotary Actuators support harmonic drives of models 11, 14, 17, 20, 25, 32, 40, 50, and 58, with rated torque from 4 N·m to 1200 N·m. They feature",
     "descriptionZh": "The HATF Harmonic Servo Rotary Actuators support harmonic drives of models 11, 14, 17, 20, 25, 32, 40, 50, and 58, with rated torque from 4 N·m to 1200 N·m. They feature",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 589.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -5710,7 +6340,16 @@
     "specs": {
       "Torque": "from 4 N·m to 1200 N·m. They feature"
     },
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 559.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 518.32
+      }
+    ]
   },
   {
     "id": "bec578d3b",
@@ -5722,8 +6361,8 @@
     "categoryKey": "act",
     "descriptionEn": "The HAT Hollow and Standard Harmonic Servo Rotary Actuators support harmonic drives of models 11, 14, 17, 20, 25, 32, 40, 50, and 58, with rated torque from 4 N·m to 1200",
     "descriptionZh": "The HAT Hollow and Standard Harmonic Servo Rotary Actuators support harmonic drives of models 11, 14, 17, 20, 25, 32, 40, 50, and 58, with rated torque from 4 N·m to 1200",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 609.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -5737,7 +6376,16 @@
     "specs": {
       "Torque": "from 4 N·m to 1200"
     },
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 578.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 535.92
+      }
+    ]
   },
   {
     "id": "b0f32695d",
@@ -5749,8 +6397,8 @@
     "categoryKey": "act",
     "descriptionEn": "The HASF Solid Standard Harmonic Servo Rotary Actuator includes harmonic drives of models 11, 14, 17, 20, and 25, with rated torque from 4 N·m to 133 N·m. It features a m",
     "descriptionZh": "The HASF Solid Standard Harmonic Servo Rotary Actuator includes harmonic drives of models 11, 14, 17, 20, and 25, with rated torque from 4 N·m to 133 N·m. It features a m",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 489.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -5764,7 +6412,16 @@
     "specs": {
       "Torque": "from 4 N·m to 133 N·m. It features a m"
     },
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 464.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 430.32
+      }
+    ]
   },
   {
     "id": "b70527181",
@@ -5776,8 +6433,8 @@
     "categoryKey": "act",
     "descriptionEn": "The HAS Solid Standard Harmonic Rotary Actuator integrates a frameless torque motor, multi-turn absolute encoder, and harmonic drive. It supports five harmonic drive mode",
     "descriptionZh": "The HAS Solid Standard Harmonic Rotary Actuator integrates a frameless torque motor, multi-turn absolute encoder, and harmonic drive. It supports five harmonic drive mode",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 509.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -5791,7 +6448,16 @@
     "specs": {
       "Torque": "motor"
     },
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 483.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 447.92
+      }
+    ]
   },
   {
     "id": "b4a869783",
@@ -5803,8 +6469,8 @@
     "categoryKey": "act",
     "descriptionEn": "Standard rotary actuators typically integrate frameless inner rotor torque motors with harmonic drives and absolute encoders to form a complete rotary actuator unit. The",
     "descriptionZh": "Standard rotary actuators typically integrate frameless inner rotor torque motors with harmonic drives and absolute encoders to form a complete rotary actuator unit. The",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 529.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -5818,7 +6484,16 @@
     "specs": {
       "Torque": "motors with harmonic drives and absolute encoders to form a complete rotary actuator unit. The"
     },
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 502.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 465.52
+      }
+    ]
   },
   {
     "id": "be6d6513b",
@@ -5830,8 +6505,8 @@
     "categoryKey": "act",
     "descriptionEn": "The large hollow bore rotary actuator typically integrates an internal rotor frameless torque motor with components such as a harmonic drive reducer, absolute encoder, an",
     "descriptionZh": "The large hollow bore rotary actuator typically integrates an internal rotor frameless torque motor with components such as a harmonic drive reducer, absolute encoder, an",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 549.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -5845,7 +6520,16 @@
     "specs": {
       "Torque": "motor with components such as a harmonic drive reducer"
     },
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 521.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 483.12
+      }
+    ]
   },
   {
     "id": "bbac56b04",
@@ -5857,8 +6541,8 @@
     "categoryKey": "act",
     "descriptionEn": "The backlash-free planetary rotary actuator typically integrates an internal rotor frameless torque motor with precision backlash-free planetary gearboxes, absolute encod",
     "descriptionZh": "The backlash-free planetary rotary actuator typically integrates an internal rotor frameless torque motor with precision backlash-free planetary gearboxes, absolute encod",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 569.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -5872,7 +6556,16 @@
     "specs": {
       "Torque": "motor with precision backlash-free planetary gearboxes"
     },
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 540.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 500.72
+      }
+    ]
   },
   {
     "id": "b60c22d6d",
@@ -5884,8 +6577,8 @@
     "categoryKey": "act",
     "descriptionEn": "Reduction Ratio：10\nRated Voltage：24V\nRated Power：40w\nRated Speed：172rpm\nRated Torque：2.2N·m\nPeak Torque：7N·m\nPeak Power：70w\nTorque Constant ：0.095N·m/A\nBacklash：7.5arcmin",
     "descriptionZh": "Reduction Ratio：10\nRated Voltage：24V\nRated Power：40w\nRated Speed：172rpm\nRated Torque：2.2N·m\nPeak Torque：7N·m\nPeak Power：70w\nTorque Constant ：0.095N·m/A\nBacklash：7.5arcmin",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 589.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -5899,7 +6592,16 @@
     "specs": {
       "Torque": "Constant ：0.095N·m/A"
     },
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 559.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 518.32
+      }
+    ]
   },
   {
     "id": "b226bd820",
@@ -5911,8 +6613,8 @@
     "categoryKey": "act",
     "descriptionEn": "Reduction Ratio：40\nRated Voltage：24V\nRated Power：40w\nRated Speed：43rpm\nRated Torque：8.9N·m\nPeak Torque：23.5N·m\nPeak Power：70w\nTorque Constant：0.095N·m/A\nBacklash：15arcmin",
     "descriptionZh": "Reduction Ratio：40\nRated Voltage：24V\nRated Power：40w\nRated Speed：43rpm\nRated Torque：8.9N·m\nPeak Torque：23.5N·m\nPeak Power：70w\nTorque Constant：0.095N·m/A\nBacklash：15arcmin",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 609.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -5926,7 +6628,16 @@
     "specs": {
       "Torque": "Constant：0.095N·m/A"
     },
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 578.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 535.92
+      }
+    ]
   },
   {
     "id": "b944c1b59",
@@ -5938,8 +6649,8 @@
     "categoryKey": "act",
     "descriptionEn": "Reduction Ratio：40\nRated Voltage：24V\nRated Power：65w\nRated Speed：44rpm\nRated Torque：14N·m\nPeak Torque：28N·m\nPeak Power：90w\nTorque Constant：0.096N·m/A\nBacklash：15arcmin\nWe",
     "descriptionZh": "Reduction Ratio：40\nRated Voltage：24V\nRated Power：65w\nRated Speed：44rpm\nRated Torque：14N·m\nPeak Torque：28N·m\nPeak Power：90w\nTorque Constant：0.096N·m/A\nBacklash：15arcmin\nWe",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 489.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -5953,7 +6664,16 @@
     "specs": {
       "Torque": "Constant：0.096N·m/A"
     },
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 464.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 430.32
+      }
+    ]
   },
   {
     "id": "baed19d74",
@@ -5965,8 +6685,8 @@
     "categoryKey": "act",
     "descriptionEn": "Reduction Ratio：48\nRated Voltage：24V\nRated Power：120w\nRated Speed：38rpm\nRated Torque：30N·m\nPeak Torque：95N·m\nPeak Power：150w\nTorque Constant：0.083N·m/A\nBacklash：15arcmin",
     "descriptionZh": "Reduction Ratio：48\nRated Voltage：24V\nRated Power：120w\nRated Speed：38rpm\nRated Torque：30N·m\nPeak Torque：95N·m\nPeak Power：150w\nTorque Constant：0.083N·m/A\nBacklash：15arcmin",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 509.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -5980,7 +6700,16 @@
     "specs": {
       "Torque": "Constant：0.083N·m/A"
     },
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 483.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 447.92
+      }
+    ]
   },
   {
     "id": "b4ec0be53",
@@ -5992,8 +6721,8 @@
     "categoryKey": "lidar",
     "descriptionEn": "T-mini Plus LiDAR [12m]",
     "descriptionZh": "T-mini Plus LiDAR [12m]",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 289.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -6005,7 +6734,16 @@
       "/images/products/img_177.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 274.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 254.32
+      }
+    ]
   },
   {
     "id": "b94c95d41",
@@ -6017,8 +6755,8 @@
     "categoryKey": "lidar",
     "descriptionEn": "T-mini Plus LiDAR [25m]",
     "descriptionZh": "T-mini Plus LiDAR [25m]",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 309.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -6030,7 +6768,16 @@
       "/images/products/img_177.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 293.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 271.92
+      }
+    ]
   },
   {
     "id": "b538ab129",
@@ -6042,8 +6789,8 @@
     "categoryKey": "lidar",
     "descriptionEn": "Operating voltage range: DC 9-27V; Laser wavelength: 905nm; FOV: 360° horizontal, -7°~52° vertical; Equipped with metal protective frame and technical support services.",
     "descriptionZh": "Operating voltage range: DC 9-27V; Laser wavelength: 905nm; FOV: 360° horizontal, -7°~52° vertical; Equipped with metal protective frame and technical support services.",
-    "priceUsd": null,
-    "saleMode": "quote",
+    "priceUsd": 329.0,
+    "saleMode": "buy",
     "minOrderQuantity": 1,
     "familyGroup": null,
     "variantName": null,
@@ -6055,7 +6802,16 @@
       "/images/products/img_178.webp"
     ],
     "specs": {},
-    "bulkPricing": []
+    "bulkPricing": [
+      {
+        "minQuantity": 5,
+        "unitPriceUsd": 312.55
+      },
+      {
+        "minQuantity": 20,
+        "unitPriceUsd": 289.52
+      }
+    ]
   },
   {
     "id": "bfe95732a",

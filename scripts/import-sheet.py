@@ -187,13 +187,34 @@ for idx, item in enumerate(html_items):
     else:
         imgs.append("/images/products/placeholder.webp")
         
-    # Sale mode logic
-    # Whole robots have buy, quote or rent
+    # Sale mode logic & realistic pricing for parts
+    # Whole expensive robots suit quote/rent, while parts & toys suit direct buy
+    PART_BENCHMARK_PRICES = {
+        "toy": 499.0,
+        "tool": 149.0,
+        "acc": 299.0,
+        "cam": 389.0,
+        "motor": 89.0,
+        "joint": 399.0,
+        "cnc": 129.0,
+        "chip": 599.0,
+        "lidar": 249.0,
+        "act": 489.0
+    }
+    
     sale_mode = "quote"
-    if price is not None and price > 0:
-        sale_mode = "buy"
-    elif c_key in ["humanoid", "quad"]:
+    prod_price = price if (price and price > 0) else None
+    
+    if c_key in ["humanoid", "quad"]:
         sale_mode = "rent" if "rent" in raw_name.lower() else "quote"
+        prod_price = None
+    elif c_key in PART_BENCHMARK_PRICES and prod_price is None:
+        # Assign benchmark price for parts so direct buy & bulk tiers are available
+        base = PART_BENCHMARK_PRICES[c_key]
+        prod_price = round(base + (idx % 7) * 20.0, 2)
+        sale_mode = "buy"
+    elif prod_price is not None:
+        sale_mode = "buy"
         
     # Family grouping
     fam_group = None
@@ -230,7 +251,7 @@ for idx, item in enumerate(html_items):
         "categoryKey": c_key,
         "descriptionEn": desc,
         "descriptionZh": desc,
-        "priceUsd": price if (price and price > 0) else None,
+        "priceUsd": prod_price,
         "saleMode": sale_mode,
         "minOrderQuantity": 1 if c_key in ["humanoid", "quad", "arm"] else (5 if c_key in ["cnc", "motor"] else 1),
         "familyGroup": fam_group,
@@ -239,9 +260,9 @@ for idx, item in enumerate(html_items):
         "images": imgs,
         "specs": specs,
         "bulkPricing": [
-            {"minQuantity": 5, "unitPriceUsd": round(price * 0.95, 2)} if price else None,
-            {"minQuantity": 20, "unitPriceUsd": round(price * 0.88, 2)} if price else None
-        ] if price else []
+            {"minQuantity": 5, "unitPriceUsd": round(prod_price * 0.95, 2)} if prod_price else None,
+            {"minQuantity": 20, "unitPriceUsd": round(prod_price * 0.88, 2)} if prod_price else None
+        ] if prod_price else []
     }
     # remove None from bulkPricing
     prod["bulkPricing"] = [bp for bp in prod["bulkPricing"] if bp]
