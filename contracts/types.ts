@@ -157,6 +157,45 @@ export interface RentalInquiryResponse {
   message: string;
 }
 
+export interface ResellerApplicationRequest {
+  companyName: string;
+  taxRegistrationOrId?: string;
+  website?: string;
+  targetRegion: string;
+  distributionChannels: string[];
+  brandsOfInterest: string[];
+  annualProjectedVolume?: string;
+  applicantName: string;
+  applicantRole?: string;
+  email: string;
+  phoneOrSocialHandle: string;
+  companyBackground?: string;
+}
+
+export interface ResellerApplicationResponse {
+  applicationId: string;
+  status: 'submitted' | 'under_review';
+  message: string;
+  estimatedReviewDays: number;
+}
+
+export interface ServiceInquiryRequest {
+  serviceType: 'repair' | 'education' | 'distribution' | 'general';
+  equipmentModel?: string;
+  organizationName?: string;
+  contactName: string;
+  email: string;
+  phoneOrSocial?: string;
+  urgency: 'immediate' | '1_month' | 'planning';
+  details: string;
+}
+
+export interface ServiceInquiryResponse {
+  inquiryId: string;
+  status: 'received' | 'assigned_to_engineer';
+  message: string;
+}
+
 /**
  * Assumptions made for Dev B (platform / backend):
  * 1. Price is in USD. When null, saleMode defaults to 'quote', or can be 'rent' for rental items.
@@ -165,3 +204,4 @@ export interface RentalInquiryResponse {
  * 4. Quantity tiers ('bulkPricing') define step-discounts for parts with MOQs.
  * 5. Submitted quotes generate a unique human-friendly ID like 'Q-2026-XXXX' and alert the admin.
  */
+
